@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #dfe3eb;
+	width: 900px;
+	margin: auto;
+}
+
+.container h1 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.container-info {
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.avatar img {
+	width: 250px;
+	margin-right: 50px;
+}
+
+.goals {
+	border: 1px solid black;
+	margin: 25px;
+}
+
+.goals h2 {
+	text-align: center;
+}
+
+.goals ul {
+	margin: 20px;
+	box-sizing: border-box;
+}
+
+.time {
+	border: 1px solid black;
+	margin: 25px;
+}
+
+.time h2 {
+	text-align: center;
+}
+
+.day {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.time td:first-child {
+	padding: 0 50px 0 0;
+}
+
+
+.course {
+	border: 1px solid black;
+	margin: 25px;
+}
+
+.course h2 {
+	text-align: center;
+}
+
+.course-items {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.course th, 
+.course td {
+	padding: 10px 50px 10px 0;
+}
+
+.course th {
+    border-bottom: 1px solid black;
+}
+
+.course th:last-child, 
+.course td:last-child {
+	padding: 0;
+}
+
+.contacts {
+	border: 1px solid black;
+	margin: 25px;
+}
+
+.contacts h2 {
+	text-align: center;
+}
+
+.contacts-items {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-item {
+    text-align: center;
+}
+
+.contacts-item a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.contacts-item a:hover {
+    text-decoration: underline;
+    color: rgb(120, 120, 120);
+}
